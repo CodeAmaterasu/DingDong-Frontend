@@ -1,1 +1,91 @@
-/* You can add global styles to this file, and also import other style files */
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  margin: auto;
+  background-color: #8F50F2;
+  border-radius: 1em;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 50px;
+}
+
+label {
+  color:white;
+}
+
+#text-footer{
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 10px;
+  width: 88vw;
+  background-color: #586DE6;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  margin-right: auto !important;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+  color: white;
+}
+
+.navbar-brand-r {
+  color: white;
+  float:right;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.navbar-brand-r:focus, .navbar-brand-r:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #586DE6;
+}
+
+.container-about{
+  width:100%;
+  display: flex;
+}
+
+.about-left{
+  float:left;
+  max-width: 350px;
+  padding-right: 35px;
+  min-width: 330px;
+}
+
+body {
+  padding: 50px;
+}
+.outter-wrapper {
+  width: min-content;
+  margin: 0 auto;
+}
+
+.form-control::placeholder {
+
+  color: #50BEF2 !important;
+}
+
+.form-control{
+  background-color: #5399FC !important;
+  border: none !important;
+  border-radius: 4px !important;
+  margin-bottom: 10px;
+}
+
+.text-muted {
+  color: white !important;
+}
